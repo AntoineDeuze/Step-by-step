@@ -4,7 +4,7 @@ body {
 }
 
 header .navbar {
-    background-color: rgb(22, 102, 120) !important;
+    background-color: rgb(30, 120, 22) !important;
     color: #ddd;
 }
 
@@ -16,12 +16,12 @@ main {
 }
 
 footer {
-    background-color: rgb(22, 102, 120) !important;
+    background-color: rgb(30, 120, 22) !important;
     color: #ddd;
 }
 
 .navbar-toggler.custom-navbar-toggler {
-    border-color: #ddd;
+    border-color: rgb(221, 221, 221);
 }
 
 .navbar-toggler-icon.custom-navbar-toggler-icon {
