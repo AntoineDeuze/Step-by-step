@@ -7,3 +7,18 @@ app (dossier de l'application avec App.js)
 2. Mettre en place la single page application
 3. Créer un git repository pour ce projet 
 + branche Step0 + commit + merge sur master une fois terminé
+
+Step 1 :
+0. Nouvelle branche git Step 1 
+1. Mettre en place la base de données
+Création de la base
+Création des tables
+Insertion de données pour les tests : tables product et category dans un premier temps
+https://mockaroo.com/ pour générer les données des autres tables (user, command et command_line)
+2. Créer une classe Rest.js pour l'envoi des requettes Ajax vers l'Api Rest
+3. Créer le fichier index.php de l'Api Rest qui recéptionnera les requêtes Ajax
+Dans un premier temps le fichier index.php renvoi ce qu'il a reçu (ou false si info indispensable manquante)
+4. Tester les nouvelles fonctionnalités
+Attention aux infos indispensables pour les requêtes sur la DB !
+5. git Commit Step 1 + Merge sur master
+6. Nouvelle Branche git Step 2
