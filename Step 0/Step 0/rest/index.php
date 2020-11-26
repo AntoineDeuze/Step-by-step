@@ -11,6 +11,8 @@ switch ($_SERVER["REQUEST_METHOD"]) {
             break;
         }
         $id = isset($_get['id']) ? $_get['id'] : null;
+        $where = isset($_get['where']) ? $_get['where'] : null;
+        $orderby = isset($_get['orderby']) ? $_get['orderby'] : null;
         echo Db::select($table, $id);
         break;
 

@@ -22,3 +22,31 @@ Dans un premier temps le fichier index.php renvoi ce qu'il a reçu (ou false si 
 Attention aux infos indispensables pour les requêtes sur la DB !
 5. git Commit Step 1 + Merge sur master
 6. Nouvelle Branche git Step 2
+
+Step 2 :
+1. Créer la classe Db.php qui va permetrre d'effectuer les requêtes SQL
+Fonction Connection
+Fonction Query générique
+Fonction Select
+Fonction Insert
+Fonction Update
+Fonction Delete
+2. Tester les nouvelles fonctionnalités avec les fonctions de la classe Rest.js
+
+3. git Commit Step 2 + Merge sur master
+4. Nouvelle Branche git Step 3 pour la prochaine étape
+
+
+Step 3 :
+
+0. Extension TODO Tree bien pratique !
+Lors d'un update (put) avec aucune valeur modifiée dans la ligne, l'Api Rest renvoi false (à traiter ultérieurement en JS)
+
+1. Création de la classe Utils qui va nous permettre de stocker des fonctions outils 
+String > tryJsonParse() pour convertir les reponses serveur en objet json
+
+2. Création d'une classe Product et convertion json en js Product
+Attention au type des données récupérées (string/number/bool)
+
+3. git Commit Step 3 + Merge sur master
+4. Nouvelle Branche git Step 4 pour la prochaine étape

@@ -22,7 +22,9 @@ class App {
         //récupérer le hash et l'afficher dans main
         console.clear();
         let hash = (window.location.hash || "#accueil").substring(1);
-        $('#main').hide().html(hash).fadeIn();
+        $('#main').hide().html(hash).show();
     }
+
+
 
 }
